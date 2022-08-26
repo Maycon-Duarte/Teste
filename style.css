@@ -1,0 +1,76 @@
+body{
+    font-family: calibri;
+}
+table{
+    width: 100%;
+    border-collapse: collapse;
+}
+tr{
+    border-bottom: 1px solid black;
+    height: 50px;
+}
+.conteudo{
+    width: 1200px;
+    margin: auto;
+}
+.buttonTd{
+    text-align: center;
+}
+label{
+    color: #316b9f;
+    text-transform: uppercase;
+}
+legend{
+    font-size: 18pt;
+    color: #0c5391;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+}
+.textInput, select{
+    width: 90%;
+    height: 30px;
+    margin-top: 10px;
+}
+.tdButton{
+    text-align: center;
+}
+button{
+    background-color: blue;
+    color: #fff;
+    cursor: pointer;
+    border: none;
+    padding: 5px;
+    width: 100px;
+    border-radius: 5px;
+    margin: 5px;
+}
+.submit{
+    margin-top: 20px;
+    background-color: blue;
+    color: #fff;
+    cursor: pointer;
+    border: none;
+    padding: 5px;
+    width: 100px;
+    border-radius: 5px;
+}
+#formFabricante, #formProdutos{
+    display: inline-block;
+    vertical-align: top;
+    width: 49%;
+}
+#modal{
+    width: 500px;
+    margin: auto;
+    position: absolute;
+    right: 0;
+    left: 0;
+    top: 100px;
+    background-color: lightgrey;
+    padding: 20px;
+    border-radius: 5px;
+    display: none;
+}
+.search{
+    height: 30px;
+}
